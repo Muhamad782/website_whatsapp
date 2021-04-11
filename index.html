@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="whatsapp">
+        <div class="whatsapp-area">
+            <div class="whatsapp-top-area">
+                <div class="title">
+                    <br>
+                    <h2>WhatsApp</h2>
+                    <div class="icon">
+                        <i class="fa fa-search"></i>
+                        <i class="fa fa-ellipsis-v"></i>
+                    </div>
+                </div>
+                <div class="whatsapp-tabs">
+                    <ul>
+                        <li><a href="#">Chats</a></li>
+                        <li><a href="#">Status</a></li>
+                        <li><a href="#">Calls</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="chats">
+                <div class="flex">
+                    <img src="slide-removebg-preview.png">
+                    <h2>Friends</h2>
+                    <p>Message.....</p>
+                    <div class="msg">
+                        <span>2</span>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <br>
+            <div class="chats">
+                <div class="flex">
+                    <img src="slide-removebg-preview.png">
+                    <h2>Friends</h2>
+                    <p>Typing.....</p>
+                </div>
+                <hr>
+            </div>
+            <br>
+            <div class="chats">
+                <div class="flex">
+                    <img src="slide-removebg-preview.png">
+                    <h2>Friends</h2>
+                    <p>Typing.....</p>
+                </div>
+                <hr>
+            </div>
+            <br>
+            <div class="chats">
+                <div class="flex">
+                    <img src="slide-removebg-preview.png">
+                    <h2>Friends</h2>
+                    <p>Message.....</p>
+                    <div class="msg">
+                        <span>2</span>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <br>
+            <div class="chats">
+                <div class="flex">
+                    <img src="slide-removebg-preview.png">
+                    <h2>Friends</h2>
+                    <p>Message.....</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #aaaa;
+    }
+
+    .whatsapp {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .whatsapp-area {
+        width: 400px;
+        height: 500px;
+        background-color: #d2d2d2;
+        box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.3);
+        border-radius: 28px;
+    }
+
+    .whatsapp-top-area {
+        width: 100%;
+        height: 80px;
+        border-radius: 28px 28px 0 0;
+        background-color: #039703;
+    }
+
+    .whatsapp-tabs {
+        width: 100%;
+        height: 50px;
+        position: relative;
+        top: -2px;
+        background-color: #039703;
+        left: 0;
+    }
+
+    .whatsapp-tabs ul {
+        position: relative;
+        top: 50%;
+        left: 4%;
+        transform: translate(-4%, -50%);
+    }
+
+    .whatsapp-tabs ul li {
+        display: inline-block;
+        list-style-type: none;
+    }
+
+    .whatsapp-tabs ul li a {
+        text-decoration: none;
+        text-align: center;
+        margin-right: 40px;
+        margin-left: 20px;
+        color: #004700;
+        font-weight: 900;
+        font-family: sans-serif;
+        font-size: 17px;
+    }
+
+    .chats {
+        width: 100%;
+        height: 50px;
+        position: relative;
+        top: 15%;
+        left: 6%;
+        transform: translate(-6%, -15%);
+    }
+
+    .chats hr {
+        margin-top: -8px;
+        color: #d2d2d2;
+    }
+
+    .chats img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-left: 18px;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .chats h2 {
+        font-weight: 900;
+        font-family: sans-serif;
+        color: #111;
+        margin-left: 20px;
+        margin-top: -1px;
+    }
+
+    .chats p {
+        margin-top: 30px;
+        margin-left: -5.5pc;
+        font-weight: 500;
+        font-family: sans-serif;
+        color: #111;
+    }
+
+    .msg {
+        position: relative;
+        top: 4pc;
+        right: -48%;
+        transform: translate(-3%, -78%);
+    }
+
+    .msg span {
+        background-color: #00ff77;
+        padding: 4px 8px;
+        border-radius: 50%;
+        color: #004700;
+        font-weight: 900;
+        font-family: sans-serif;
+    }
+
+    .title h2 {
+        font-size: 28px;
+        color: #fff;
+        margin-top: 8px;
+        font-weight: bolder;
+        text-align: left;
+        font-family: sans-serif;
+        margin-left: 22px;
+    }
+    .icon{
+        text-align: right;
+        margin-top: -50px;
+    }
+    .icon i{
+        font-size: 22px;
+        margin: 0 14px;
+        text-align: right;
+        color: #fff;
+        cursor: pointer;
+    }
+</style>
